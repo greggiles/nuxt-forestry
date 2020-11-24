@@ -29,6 +29,11 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: asdf
+  type: text
+  config:
+    required: false
+  label: asdf
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/an-essay-on-walking.md
