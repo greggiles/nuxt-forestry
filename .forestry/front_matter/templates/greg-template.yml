@@ -1,4 +1,20 @@
 ---
 label: Greg Template
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  default: Title
+- name: text-1
+  type: textarea
+  default: This is an intro paragraph
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: text-1
+  description: Intro Paragraph
